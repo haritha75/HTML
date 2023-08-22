@@ -1,0 +1,78 @@
+HTML:
+  -> Hyper text markup language that means more than text that can be dispalyed on the web page.
+  -> It is used for dispaly the content in the web page.
+  -> HTML is the standard markup language for creating Web pages.
+  -> HTML describes the structure of a Web page.
+  -> HTML elements tell the browser how to display the content.
+   
+
+HTML Element:
+ 
+
+-> HTML element is defined by a start tag, some content, and an end tag.
+
+
+Tags:
+
+ The <!DOCTYPE html> declaration defines that this document is an HTML5 document that means which version we are using in html we have multiple version but now we are using html5.
+ The <html> element is the root element of an HTML page
+ The <head> element contains meta information about the HTML page
+ The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+ The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+ The <h1> element defines a large heading
+ The <p> element defines a paragraph
+ 
+ Heading Tags : It indicates like this <h1></h1> this all used for heading purpose that means if you want to text size large then use heading tags we have 6 types of heading tags.
+ Paragraph Tag: It indicates liekt this <p></P>. paragraph always starts on a new line, and is usually a block of text.
+ Break Tag: It is empty tag that means their no content and no closing tag. It is used for new line purpose.It indicates<br>
+ Horizental Tag: It indicates <hr> It  does not have closing tag it is used for horizental line purpose.
+ Anchor Tag: It indicates <a></a> It specifies hyperlink.
+ Image Tag: I tindicates <img> It does not have closing tag .It is used to display the image on the page.
+ Preformatted Text: It indicates <pre> </pre>.If you want same structure what you are writting in the file then use this tag.
+
+ Attributes:
+
+
+    All HTML elements can have attributes
+    Attributes provide additional information about elements
+    Attributes are always specified in the start tag
+    Attributes usually come in name/value pairs like: name="value"
+
+ href Attribute: 
+   ->  It specifies the URL of the page the link.
+ src Attribute:
+   -> specifies the path to the image to be displayed.
+ alt Atrribute:
+    -> If you give wrong path then alternativly it displayed some info about the image.
+ title Attribute:
+   -> The title attribute defines some extra information about an element.
+   -> It displayed as a tooltip when you mouse over the element.        
+ style Attribute:
+    -> if you want apply colour to the text then use this attributes.
+ lang Attribute:
+    ->  It declare the language of the Web page .
+ width And height Attribute:
+   -> To mention how much size we want to the image.   
+
+
+Absolute Path: 
+
+   -> absolute file path is the full URL to a file.
+Relative Path:
+   ->relative file path points to a file relative to the current page.
+
+   when compared to absolute path relative path better because different user have different paths name that type we can get some issue with absolute path not getting issue with relative path.     
+
+
+Block Level Elements:
+
+   -> Block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.
+   -> A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+   -> Two commonly used block elements are: <p> and <div>.
+   -> It does not allow side  content always start with new line only.
+
+Inline Elements: 
+
+    -> Inline element does not start on a new line.
+    -> Inline element only takes required width only.
+    -> It allows side content also if you have required width.
