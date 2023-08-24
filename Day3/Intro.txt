@@ -1,0 +1,120 @@
+Colors : 
+
+     we have 140 standard colors.
+RGB:
+
+    RGB means Red,Green,Blue colors.
+
+    rgb(red, green, blue)
+
+    each parameter can store colors  range from 0 to 255 that means 256 colors total.
+
+    that means  there are 256 x 256 x 256 = more than 16 million possible colors.
+
+    For example, 
+                
+                 rgb(0, 0, 0) is displayed as black
+                 rgb(255, 255, 255) is displayed as white
+                 rgb(255, 0, 0) is displayed as red,
+                 rgb(0, 255, 0) is displayed as green,
+                 rgb(0, 0, 255) is displayed as blue
+                 
+
+HEX:
+
+    A hexadecimal color is defined with: #RRGGBB, where the RR (red), GG (green) and BB (blue).
+
+    each color can store colors from 00 to FF , red store 0 to 255 colors
+
+     means  there are 256 x 256 x 256 = 16777216 possible colors.
+
+    #ff0000 is displayed as red
+
+    #00ff00 is displayed as green
+
+    #0000ff is displayed as blue
+
+    #000000 is displayed as black.
+
+    #ffffff is displayed as white.
+
+
+HSL:
+
+    HSL means hue, saturation, and lightness.
+
+    It can be defined as hsl(hue, saturation, lightness).
+
+    hue :  degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
+
+    Saturation: it is used for thinkness of the color.percentage value. 0% means a shade of gray, and 100% is the full color.
+
+    Lightness:   it is used for lightness of the color.percentage value. 0% is black, and 100% is white.
+
+HSLA:
+
+    HSLA means hue, saturation, lightness, alpha
+    hsla(hue, saturation, lightness, alpha)
+
+
+    alpha parameter is a number between 0.0 and 1.0.it is used for transparent of color that means how much transparent you want to the color mention between 0.0 to 1.0.
+
+
+Styling:
+
+
+Three types of styling: 1. Inline styling
+                        2. Internal styling
+                        3. External styling
+
+Inline styling:
+
+        The styles specified within the tag  that means with in the body section is called inline styling.
+        Disadvantages of inline styling is if you have more tag in the body then every body we can apply style that time it takes time.
+        It is used only small documents type.
+
+Internal styling:
+
+        The styles used in head section by using style tag and mention which element we have the color is called internal styling.
+        If you have one page,then use internal styling.
+
+External styling:
+
+        An external style sheet is used to define the style for many HTML pages.
+        To use an external style sheet, add a link to it in the <head> section of each HTML page.
+        Save external file as .css
+Borders:
+
+        it is used for if you have border to the content then use border property.
+
+        border-radius : radius;
+        border-style : style
+        border-color : color
+       
+
+        We can  specify border in single lines also:
+              
+                borders : radius style color
+        
+
+Padding:
+
+        Padding is the space between the border and content inside the border.
+
+        padding : top right bottom left 
+
+        padding : top&bottom right&left 
+
+        padding : top&right&bottom&left 
+
+Margin:
+
+        It defines a margin (space) outside the border.
+
+        Margin : top right bottom left 
+
+        Margin : top&bottom right&left
+
+        Margin : top&right&bottom&left
+
+ 
