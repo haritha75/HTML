@@ -1,0 +1,21 @@
+table{
+    border-collapse: collapse;
+}
+tr:nth-child(odd) {
+    background-color: rgba(228, 46, 182, 0.4);
+  }
+  tr:nth-child(odd):hover {
+    background-color: darkmagenta;
+  }
+
+  
+  th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(207, 147, 17, 0.4);
+  }
+  tr:nth-child(even):hover {
+    background-color: rgb(226, 216, 78);
+  }
+
+  td,th{
+    padding: 15px;
+  }

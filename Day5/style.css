@@ -1,0 +1,24 @@
+table,th,td{
+    border: 2px solid cornflowerblue;
+    border-collapse: collapse;
+}
+table{
+    border-spacing: 50px;
+
+}
+
+th{
+    border:4px solid rgb(225, 102, 65);
+}
+td{
+    border:4px solid rgb(226, 17, 195);
+}
+h1 {
+    border: 6px solid goldenrod;
+    border-radius: 10%;
+}
+span {
+
+    border: 4px solid salmon;
+    border-radius: 20%;
+}
