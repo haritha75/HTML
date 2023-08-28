@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Responsive Image</h2> 
+    <!--making image width100%  looking good in all devices-->
+    <img src="../cat.jpg" style="max-width: 100%;height:auto;" alt="cat image">
+    <img src="../cat.jpg" alt ="" width="auto">
+    <picture>
+        <source srcset="../cat.jpg" media="(min-width:650px)">
+        <source srcset="../cat.jpg" media="(min-width:465px)">
+            <img src="../cat.jpg" alt="cat image">
+
+    </picture>
+
+    
+</body>
+</html>
