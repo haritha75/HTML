@@ -1,0 +1,12 @@
+h1{
+    border: 2px solid red;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    margin: auto; /* means it set the margin equal on all sides*/
+}
+
+img {
+    display: block;
+    margin: auto;
+}

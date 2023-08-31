@@ -1,0 +1,8 @@
+h1{
+    border: 2px solid red;
+    padding: 50px; /* it apply padding all sides equally*/
+}
+p{
+    border: 4px dotted   rgb(47, 61, 255);
+    padding: 70px;
+}

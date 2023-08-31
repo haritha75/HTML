@@ -1,0 +1,11 @@
+body{
+    border: 3px solid red;
+    background-color: chartreuse;
+}
+p.style {
+    border: inherit; /* it means we can inherite properties or all features into the child class*/
+}
+h1{
+    border: inherit;
+    background-color: rgb(218, 37, 218);
+}
