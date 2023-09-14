@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+}
+input {
+    width: 300px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border: 3px solid rgb(218, 32, 63);
+}
+
+button {
+
+    width: 100px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: 5px solid black;
+    font-weight: bold;
+}
+ol{
+    margin-top: 15px;
+}
+ol li {
+    font-size: 30px;
+    background-color: rgb(243, 146, 18);
+    list-style: none;
+    width: 450px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+ol li:hover {
+
+    background-color: rgb(0, 255, 85);
+}
