@@ -1,0 +1,23 @@
+h1 {
+    
+    text-align: center;
+    border: 5px solid salmon;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+}
+
+div {
+
+    padding: 10px;
+    width: fit-content;
+    height: 100vh;
+    margin-top: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+button {
+    width: 100px;
+    height: 50px;
+}
