@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .tool {
+        width: 200px;
+        height: 200px;
+        background-color: orange;
+        text-align: center;
+        display: inline;
+        padding: 30px;
+        border-bottom: 1px dotted black;
+      }
+      .tooltip {
+        visibility: hidden;
+        width: 120px;
+        color: rgb(185, 169, 173);
+        background-color: rgb(14, 15, 15);
+        text-align: center;
+        padding: 20px;
+        z-index: 1;
+        border-radius: 30px;
+      }
+      .tool:hover .tooltip {
+        visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tool">
+      Tooltip
+      <span class="tooltip">Give extract info about the context</span>
+    </div>
+  </body>
+</html>
