@@ -1,0 +1,38 @@
+body {
+  margin: 90px;
+}
+p {
+  border: 3px solid red;
+  padding: 20px;
+}
+nav {
+  border: 3px solid rgb(76, 207, 52);
+  height: 400px;
+  width: 30%;
+  text-align: center;
+  padding-top: 15%;
+}
+header {
+  width: 65%;
+  border: 3px solid red;
+  padding: 30px;
+  float: right;
+  margin-top: -38.5%;
+  text-align: center;
+}
+
+section {
+  height: 274px;
+  width: 65%;
+  border: 3px solid red;
+  padding: 30px;
+  text-align: center;
+  float: right;
+  margin-top: -32.8%;
+  padding-top: 15%;
+}
+footer {
+  border: 3px solid red;
+  padding: 20px;
+  text-align: center;
+}

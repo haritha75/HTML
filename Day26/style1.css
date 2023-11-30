@@ -1,0 +1,58 @@
+#logo {
+  border: 3px solid red;
+  padding: 20px;
+}
+body {
+  margin: 90px;
+}
+nav {
+  border: 3px solid red;
+  padding: 20px;
+  margin-top: -4.5%;
+  text-align: right;
+  padding-right: 10%;
+}
+header {
+  border: 3px solid red;
+  padding: 40px;
+  text-align: center;
+}
+section {
+  border: 3px solid red;
+  padding: 30px;
+  text-align: center;
+}
+#first {
+  width: 520px;
+  height: 300px;
+  border: 3px solid red;
+  padding: 30px;
+  float: left;
+  text-align: center;
+  padding-top: 10%;
+}
+#second {
+  width: 490px;
+  height: 300px;
+  border: 3px solid red;
+  padding: 30px;
+  margin-left: 35%;
+  text-align: center;
+  padding-top: 10%;
+}
+#third {
+  width: 490px;
+  height: 300px;
+  border: 3px solid red;
+  padding: 30px;
+  margin-left: 35%;
+  float: right;
+  margin-top: -30.3%;
+  text-align: center;
+  padding-top: 10%;
+}
+footer {
+  border: 3px solid red;
+  padding: 20px;
+  text-align: center;
+}
