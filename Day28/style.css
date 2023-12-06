@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+#content {
+  width: 50%;
+  background-color: cyan;
+  padding: 20px;
+}
+.com {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-left: 2%;
+  margin-bottom: 1%;
+}
+
+.first {
+  background-color: red;
+}
+.sec {
+  background-color: yellow;
+}
+.thr {
+  background-color: blue;
+}
+.fou {
+  background-color: green;
+}
+.fiv {
+  background-color: rgb(248, 18, 248);
+}
+#content:hover {
+  background-color: coral;
+  transition: 7s;
+  transform: skewX(40deg);
+  opacity: 0.75;
+  margin-left: 40%;
+}
+#content:hover .com {
+  margin-left: 95%;
+  transition: 4s;
+  opacity: 0.55;
+}
