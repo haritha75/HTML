@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  margin-left: 20%;
+  margin-top: 20%;
+}
+.box {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px 50%;
+  margin-bottom: 40px;
+  transition: 3s;
+}
+
+.box1 {
+  background-color: blue;
+}
+.box2 {
+  background-color: green;
+}
+.box:hover {
+  transform: skew(30deg, 20deg);
+}

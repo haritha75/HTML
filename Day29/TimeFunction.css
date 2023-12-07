@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#content {
+  width: 50%;
+  height: 80%;
+  background-color: rgb(101, 214, 218);
+  padding: 20px;
+  margin: 20px;
+  transition: 3s;
+}
+.box {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 30px;
+  transition: all 3s;
+}
+
+.box1 {
+  background-color: chartreuse;
+  transition-timing-function: ease;
+}
+.box2 {
+  background-color: darkorchid;
+  transition-timing-function: ease-in;
+}
+.box3 {
+  background-color: hotpink;
+  transition-timing-function: ease-in-out;
+}
+.box4 {
+  background-color: rgb(94, 21, 231);
+  transition-timing-function: ease-out;
+}
+.box5 {
+  background-color: darkred;
+  transition-timing-function: step-end;
+}
+.box6 {
+  background-color: green;
+  transition-timing-function: step-start;
+}
+#content:hover .box {
+  margin-left: 80%;
+}

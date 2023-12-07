@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+#container {
+  margin-left: 30%;
+  margin-top: 20%;
+}
+.box {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  border-radius: 5px;
+  transition: 3s;
+}
+
+.box1 {
+  background-color: darkturquoise;
+}
+.box2 {
+  background-color: red;
+}
+.box2:hover {
+  margin-top: -10%;
+  margin-left: -10%;
+}
