@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(70, 231, 243);
+  transition: 5s;
+  width: 92%;
+}
+#content {
+  margin-left: 45%;
+  font-size: 40px;
+  margin-top: -2%;
+  display: flex;
+}
+h1 {
+  margin-left: 27%;
+  font-size: 40px;
+  margin-bottom: 3%;
+  margin-top: 30%;
+}
+
+#content:hover #second {
+  margin-left: 100%;
+  transition: 5s;
+}
+
+#content:hover #thr {
+  margin-left: -102.5%;
+  transition: 5s;
+}
+#thr {
+  margin-left: 110%;
+}
