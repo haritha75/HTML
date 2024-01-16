@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin-top: 100px;
+      }
+      .wrap {
+        width: 200px;
+        height: 200px;
+        margin: 50px auto;
+        background-color: rgb(210, 216, 221);
+
+        border: 1px solid #aaa;
+        border-radius: 5px;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+      }
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: rgba(51, 204, 255, 0.6);
+        border: 1px solid #3cf;
+        box-sizing: border-box;
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        transform: perspective(120px) rotatex(-45deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="box">I'm a box</div>
+    </div>
+    <div class="wrap">
+      <div class="box">
+        <img src="fish.jpg" width="75px" height="75px" />
+      </div>
+    </div>
+  </body>
+</html>
