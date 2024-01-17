@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .wrap {
+        width: 90%;
+        margin: 20px auto;
+      }
+      .group {
+        border-bottom: solid 2px #ccc;
+        position: relative;
+        top: 100px;
+      }
+      .circ {
+        background-color: rgb(84, 188, 230);
+        border-radius: 50%;
+        margin: 2em 2em 0;
+        display: inline-block;
+        position: relative;
+        height: 100px;
+        width: 100px;
+      }
+      .c1 {
+        animation: glow 2s, color 3s;
+      }
+      .c2 {
+        animation: bounce1 2s, color 5s;
+      }
+      @keyframes bounce1 {
+        0%,
+        100% {
+          top: 0;
+        }
+        50% {
+          top: 300px;
+        }
+      }
+      @keyframes glow {
+        50% {
+          background-color: red;
+          opacity: 1;
+          transform: scale(2);
+        }
+      }
+
+      @keyframes color {
+        30% {
+          background-color: coral;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="circ c1"></div>
+      <div class="circ c2"></div>
+      <div class="circ c3"></div>
+      <div class="group"></div>
+    </div>
+  </body>
+</html>
