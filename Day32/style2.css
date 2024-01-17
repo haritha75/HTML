@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+header {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+article {
+  max-width: 600px;
+}
+img {
+  max-width: 50%;
+  float: left;
+  padding-right: 0.5em;
+}
+article:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+p {
+  margin: 0 0 0 0.5em;
+  height: 0;
+  padding: 0 15px;
+  overflow: hidden;
+  transition: height 0.5s ease-out, padding 0.5s;
+}
+section {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #eaeaea;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 3);
+}
+article h1 {
+  font-size: 1.2em;
+}
+article a {
+  display: block;
+  height: 25px;
+  line-height: 25px;
+  background: linear-gradient(rgb(239, 241, 92), rgb(49, 245, 252));
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 5);
+  border-bottom: 1p solid #aaa;
+}
+
+#overview {
+  border-radius: 2px 2px 0 0;
+}
+#turtle {
+  border-radius: 0 0 3px 3px;
+}
+article a:hover,
+article a:focus {
+  opacity: 0.8;
+  outline: none;
+}
+article a:active {
+  background: linear-gradient(#ccc, #ddd);
+  color: rgb(0, 255, 221);
+}
+:target + p {
+  padding: 10px 15px;
+}
+#overview:target + p {
+  height: auto;
+}
+#shark:target + p {
+  height: auto;
+}
+#turtle:target + p {
+  height: auto;
+}

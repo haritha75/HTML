@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+        position: relative;
+      }
+      .img li {
+        width: 500px;
+        height: 500px;
+        position: relative;
+        list-style: none;
+        overflow: hidden;
+        margin: 20px;
+      }
+      .tooltip {
+        position: absolute;
+        bottom: 40px;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 3px 3px 4px 1pxrgba (0, 0, 0, 0.4);
+        border-radius: 0 15px 15px 0;
+        color: #6cf;
+        padding: 5px 30px;
+        display: none;
+      }
+      .img li:hover .tooltip {
+        animation: tooltip 1.5s forwards;
+        display: block;
+      }
+      .tooltip h1 {
+        line-height: 1;
+        padding: 5px 30px;
+      }
+      @keyframes tooltip {
+        0% {
+          transform: translatex(-400px);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="img">
+      <li>
+        <a href="#"><img src="fish.jpg" height="600px" width="600px" /></a>
+        <div class="tooltip">
+          <h1>See fish</h1>
+        </div>
+      </li>
+
+      <li>
+        <a href="#"><img src="fish.jpg" height="600px" width="600px" /></a>
+        <div class="tooltip">
+          <h1>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+            nobis!
+          </h1>
+        </div>
+      </li>
+    </ul>
+  </body>
+</html>

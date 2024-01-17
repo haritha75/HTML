@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+.slide {
+  background: #000;
+  border: 5px solid #eaeaea;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  height: 412px;
+  width: 700px;
+  margin: 50px auto 0;
+  overflow: hidden;
+  position: relative;
+}
+.mask {
+  height: 412px;
+  overflow: hidden;
+}
+.slide ul {
+  position: relative;
+}
+.slide li {
+  width: 700px;
+  height: 412px;
+  position: absolute;
+  list-style: none;
+}
+
+.slide li#fir {
+  animation: c01 25s linear infinite;
+}
+.slide li#sec {
+  animation: c02 25s linear infinite;
+}
+.slide li#thr {
+  animation: c03 25s linear infinite;
+}
+@keyframes c01 {
+  0% {
+    top: 0px;
+  }
+  4% {
+    top: 0px;
+  }
+  16% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  20% {
+    top: 412px;
+    opacity: 0;
+    z-index: 0;
+  }
+  21% {
+    top: -412px;
+    opacity: 0;
+    z-index: -1;
+  }
+  92% {
+    top: -412px;
+    opacity: 0;
+    z-index: 0;
+  }
+  96% {
+    top: -412px;
+    opacity: 0;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
+}
+@keyframes c02 {
+  0% {
+    top: -412px;
+    opacity: 0;
+  }
+
+  16% {
+    top: -412px;
+    opacity: 0;
+  }
+  20% {
+    top: 0px;
+    opacity: 1;
+  }
+  24% {
+    top: 0px;
+    opacity: 1;
+  }
+  36% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  40% {
+    top: 412px;
+    opacity: 0;
+    z-index: 0;
+  }
+  41% {
+    top: -412px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: -412px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes c03 {
+  0% {
+    top: -412px;
+    opacity: 0;
+  }
+
+  36% {
+    top: -412px;
+    opacity: 0;
+  }
+  40% {
+    top: 0px;
+    opacity: 1;
+  }
+  44% {
+    top: 0px;
+    opacity: 1;
+  }
+  56% {
+    top: 0px;
+    opacity: 1;
+  }
+  60% {
+    top: 412px;
+    opacity: 0;
+    z-index: 0;
+  }
+  61% {
+    top: -412px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: -412px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+.progressBar {
+  position: relative;
+  top: -5px;
+  width: 700px;
+  height: 5px;
+  background-color: white;
+  animation: pBar 25s ease-out infinite;
+}
+
+@keyframes pBar {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    width: 0%;
+    opacity: 0;
+  }
+  4%,
+  24%,
+  44%,
+  64% {
+    width: 0%;
+    opacity: 0.3;
+  }
+  16%,
+  36%,
+  56%,
+  76%,
+  96% {
+    width: 100%;
+    opacity: 0.7;
+  }
+
+  17%,
+  37%,
+  57%,
+  77%,
+  97% {
+    width: 100%;
+    opacity: 0.3;
+  }
+  18%,
+  38%,
+  58%,
+  78%,
+  98% {
+    width: 100%;
+    opacity: 0;
+  }
+}
+
+.slide figcaption {
+  background: rgba(255, 255, 25, 5, 0.8);
+  border-radius: 0 5px 5px 0;
+  width: 300px;
+  height: 60px;
+  position: relative;
+  bottom: 75px;
+  left: -412px;
+  transition: all 400ms ease-in-out;
+}
+.slide figcaption h1 {
+  color: #069;
+  font-size: 24px;
+  line-height: 60px;
+  font-weight: normal;
+  padding: 0 0 0 10px;
+}
+.slide li .anim:hover figcaption {
+  left: 0;
+}
+
+.slide:hover li,
+.slide:hover .progressBar {
+  animation-play-state: paused !important;
+}
