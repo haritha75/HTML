@@ -1,0 +1,16 @@
+Functional Programming is nothing but dividing the code into the function for better understanding and optimizing purpose. 
+with out higher order function we cannot achieve the functional Programming.
+Higher order function :
+  -> a function takes an argument as a function or return  function as a result
+
+  function random() {
+    return Math.floor(Math.random()*1000);
+  }
+
+  function id(name,rand) {
+    return name +" "+ rand();
+  }
+
+  const user = id("name",random); // random is a function we are passing
+
+  console.log(user);

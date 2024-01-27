@@ -1,0 +1,46 @@
+
+// What is callback function in javascript?
+ --> it is nothing it takes function and in that function passing argument as a function to the another function called callback
+ --> A function passing an argument to another function.
+setTimeout(function() {
+    console.log("timer");
+},5000);
+
+function x(y) {
+    console.log("x");
+    y();
+}
+
+x(function y() {
+    console.log("y");
+});
+
+// callback function  example
+
+document.getElementById("clickMe")
+.addEventListener("click",function xyz(){ // xyz() is callback function
+    console.log("button click");
+})
+
+// clouser and callback function
+// closures nothing but it gives access to the outer function from it's inner functions values 
+// and also functions along with the lexical scope bundled together forms a closure called the closures.
+
+function attachEventListeners() {
+    let count = 0;
+    document.getElementById("clickMe")
+    .addEventListener("click",function xyz(){ 
+    console.log("button click", ++count);
+});
+}
+attachEventListeners();
+
+
+JS Engine
+
+code -> parsing -> compilation -> execution
+
+in parsing data is divided into tokens by the syntax parser caller Abstract syntax tree.
+This Abstract syntax tree is passed to the compilation.
+JIT (just in time) compilation.
+After that that tree data will be go to the interpreter it execute and  convert into bytecode and again interpreter send that tree data into compiler fand compiler optimiizng that code.

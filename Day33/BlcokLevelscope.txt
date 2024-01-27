@@ -1,0 +1,12 @@
+    Variables declared with let and const have block-level scope. This means they are only accessible within the block (enclosed by curly braces) in which they are declared.
+    Variables declared inside a block are not accessible outside that block.
+    This is generally considered more predictable and less error-prone, especially in scenarios involving loops and asynchronous code.
+
+  function example() {
+  if (true) {
+    let y = 20;
+    const z = 30;
+  }
+  console.log(y); // ReferenceError: y is not defined
+  console.log(z); // ReferenceError: z is not defined
+}

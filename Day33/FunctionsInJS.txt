@@ -1,0 +1,48 @@
+// function statement or function declaration
+
+function a() { 
+    console.log("a called");
+}
+a();
+
+// function expression
+
+var b = function() {
+    console.log("b called");
+}
+b();
+
+
+// anonymous function it is mostly used in function expressions
+function() { // error
+    
+}
+
+// named function expression
+var b = function c() {
+    console.log("b called");
+}
+b();
+c(); // error
+
+
+// diff b/w parameters and arguments
+
+function x(param1,param2) { // parameters
+
+}
+x(1,2); // arguments
+
+
+// first class functions
+The ability of functions can be used as values  passing the argument as a function and also returning result as a function called.
+
+// arrow functions
+
+
+if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z')){
+if(! (ch>'b'&&ch<'e') || (ch>'e'&&ch<'i') || (ch>'i'&&ch<'o') || (ch>'o'&&ch<'u')||(ch>'u'&&ch<'z') ||
+(ch>'B'&&ch<'E') || (ch>'E'&&ch<'I') || (ch>'I'&&ch<'O') || (ch>'O'&&ch<'U')||(ch>'U'&&ch<'Z')) {
+
+}
+}

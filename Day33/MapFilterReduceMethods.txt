@@ -1,0 +1,107 @@
+const arr = [5,1,3,2,6];
+
+function double(x) {
+  return x*2;
+}
+const out = arr.map(double);
+console.log(out);
+
+// we can do it like this also
+
+const out = arr.map(function double(x) { // it is called higher order functions
+  return x*2;
+});
+
+console.log(out);
+
+
+// like this also
+
+const out = arr.map(x) => { // it is called anonymous inner classes.
+
+ return x*2;
+} ;
+
+
+
+
+function binary(x) {
+  return x.toString(2); //here we converting value into the binary form
+}
+
+const bi=arr.map(binary);
+console.log(bi);
+
+
+//filter method is used to filer the data for that purpose we can filter
+
+function even(x) {
+  return x%2 ===0;
+}
+
+const ou = arr.filter(even);
+
+or
+consst ou = arr.filter((x) => x>4);
+
+console.log(ou);
+
+//reduce method
+const out = arr.reduce(function(acc,curr){ //here acc like sum =0 and current value
+  acc = acc+curr;
+  return acc;
+},0);
+
+cosole.log(out);
+
+const out = arr.reduce(function(max,curr){ //here acc like sum =0 and current value
+  if(curr>acc) {
+    acc=max;
+  }
+  return acc;
+},0);
+
+cosole.log(out);
+
+
+const users = [
+  {firstNme:"haritha",;astName:"yerukondu",age:22},
+  {firstNme:"haritha",;astName:"yerukondu",age:22},
+  {firstNme:"haritha",;astName:"yerukondu",age:24}.
+  {firstNme:"haritha",;astName:"yerukondu",age:75}
+  
+];
+
+
+const out = users.map((x) => x.firstName+" +"x.lastName);
+
+console.log(out);
+
+
+const out = users.map(function(acc,curr) {
+
+  if(acc[curr.age]) {
+    acc[curr.age] = ++acc[curr.age];
+  }
+  ele {
+    acc[curr.age] = 1;
+  }
+
+  return acc;
+   
+},{});
+
+console.log(out);
+
+//method changing
+
+const out = user.filter((x) => x.age<30).map((x) => x.firstName);
+console.log(out);
+
+const out = user.reduce(function(acc,curr) {
+
+  if(cur.age<30) {
+    acc.push(curr.firstName);
+  }
+  return acc;
+},{})

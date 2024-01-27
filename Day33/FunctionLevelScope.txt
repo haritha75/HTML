@@ -1,0 +1,10 @@
+    1. Variables declared with var have function-level scope. This means they are only accessible within the function in which they are declared.
+    2. If a variable is declared inside a block (like a loop or conditional statement), it is still accessible throughout the entire function.
+    3. This can lead to unexpected behavior, especially when dealing with asynchronous code or loops.
+
+  function example() {
+  if (true) {
+    var x = 10;
+  }
+  console.log(x); // x is accessible here
+}
