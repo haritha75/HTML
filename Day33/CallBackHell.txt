@@ -1,0 +1,38 @@
+callbacks issues :
+
+1. callaback hell
+2. inversion of control
+
+It is nothing a callback called inside  the another callback that means  a callback having  inside nested callbacks called callback hell.
+it is difficult ot understand and tought to maintain.
+It strcuctre called pyramid of doom.
+
+
+Example:
+
+const cart = ["shoes","pants","kurta"];
+
+api.createOrder(cart,function() {
+
+  api.proceedToPayment( function () {
+
+    api.showORderSummary( function () {
+
+        api.updateWallet();
+
+    })
+  })
+})
+
+//here what happeng whenver  create order again we are calling proceedpayment and whenver proceed pament again callback function calling  another callback function right that is called callback hell.
+
+// inversion of control is a another problem of while using callbacks it is nothing we loosing control on the code while using callbacks. that means we are giving one api function  control to the other  api function it rises issues.
+
+const cart = ["shoes","pants","kurta"];
+
+api.createOrder(cart,function() {
+
+  api.proceedToPayment()
+})
+
+here we are blindly trusing the createorder api if create order api called twice the payment method then you loss the payment and also if create order not call the payment api then here issue happends right we do not know what happening behind right then it is called inversion of control.

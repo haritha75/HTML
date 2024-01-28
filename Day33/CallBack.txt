@@ -2,6 +2,8 @@
 // What is callback function in javascript?
  --> it is nothing it takes function and in that function passing argument as a function to the another function called callback
  --> A function passing an argument to another function.
+
+ // callbacks are mostly used in asyncronous operations it handle good manner.
 setTimeout(function() {
     console.log("timer");
 },5000);

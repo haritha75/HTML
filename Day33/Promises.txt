@@ -1,0 +1,57 @@
+promises are used to handle asyncronous operation js.
+
+const cart = ["shoes","parts","kurta"];
+
+createOrder(cart, function (orderId) {
+
+  proceedToPayment(orderId);
+
+}); //create orderId
+ 
+
+ const promise = createOrder(cart); // it will returns a promises  and createorder api contains cart details  create order is a anonymous operations so it will takes time
+ // promises is nothing empty object with some data like this {data: undefined};
+
+  so here createorder api is asyncronous right it will takes time so it will go to executing another lines after few seconds this promises object will fill this data automatically like this
+   {data:orderDetails}; that means intially emoty object stores undefined.
+
+   // once the promises object  contains data then  we are attaching callback function to the promises object like this
+   
+
+    const promise = createOrder(cart);
+
+    promise.then(function (orderId) {
+      proceedToPayment(orderId);
+    });
+
+    // let's see in previous we are passing one function to the callback function but we donot  know when it will call that function but in promises that process in our hands right  
+    because intially promises object after some time it will fill with some data and we are attaching the callback  function to the promises object. whnever fill the promises data then promises object atomatically the callback function. 
+    it call only once because is isimmutable.
+
+
+    const github = "https://api.github.com/users/akshaymarch?;
+    const promises = fetch(github); // it fetch api returns promises  here we are fetching the data from github it promises contains empty object that means it is in pending statemnt once data is fetching  then promises contains the data and return the result state also changed to fulfillment . here fetch is asyncronous operation it will take some time.
+    console.log(promises); // here js does not waiting for the anything right but fetch api takes some time so it will come to console stament at that moment state will be pending so it shows show pending state after  asyncronous operations completes state will chaged into the fulfillment statement inside t it shows current state that's it
+
+    promise.then(function(data) { // here attaching callback to the promises 
+      console.log(data);
+    })
+    //whatever the data contains promises that data pass to the function and printing it.
+
+
+    PROMISES: is a placeholder for certain period of time untill we receive a value from a asyncronous operation or it is a container for storing future  value.
+    or it is an object repressenting the  eventual completion of an anonymous operation.
+    or it is an object eventually filled with the an anonymous operation value.
+
+
+
+    To avoid callback Hell issues promise changing will come into the picture.
+
+    createOrder(cart).then(function (orderid) { //here what happends createOrder api returns promises and attaching callaback function to the promises.
+       return proceedToPayment(orderId); 
+    }).then( function (paymentinfo) {
+       return showORderSummary(paymentinfo);
+    }).then(function (paymentinfo) {
+     return  updateWalletBalance(paymentinfo);
+    });
+     this is called promise changing using promise changing use return the promises. during  the promises changing returning value remember a lot members missing this statement.
