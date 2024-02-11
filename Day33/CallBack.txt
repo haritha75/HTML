@@ -28,6 +28,21 @@ document.getElementById("clickMe")
 // closures nothing but it gives access to the outer function from it's inner functions values 
 // and also functions along with the lexical scope bundled together forms a closure called the closures.
 
+// closures
+
+function x() {
+    var a =7;
+    function y() {
+        console.log(a);
+    }
+    return y;
+}
+
+var z = x(); now here we are storing y function x return y right x function completes it removed from call stack
+
+console.log(z); //it print y function.
+z(); here calling z means y also right if call y it print 7 now here also same you have confusion execution context will removed then how to access a value right but in closures we can access inner function value to outer function also.
+
 function attachEventListeners() {
     let count = 0;
     document.getElementById("clickMe")

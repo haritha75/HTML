@@ -1,0 +1,22 @@
+scope is nothing where the vairbles to access menas in which we can access vaiable called scope.
+
+lexical environemnt is nothing whenever execution context create at the same time lexical environement will be createOrderit is nothing but local meory alsong with it's parents lexical  environement.
+
+
+fnction a() {
+  var b =1 0;
+  c();
+  function c() {
+
+// here c is a lexically sitting inside the a functiion so here a is the parent function if you print anything inside the c function first it will check c function if not theri it will check it parents
+
+  }
+}
+a();
+console.log(b);
+
+//and a is lexically inside the global scope.
+
+// whenever execution contenxt created also get reference to the  lexical environement of it's parent. and also contain vairbles and function inside the executable context.
+//now lexical environment a is a memory space that means local memroy of a and also lexical environement of a parent that is global 
+// and global pinting to the lexical environement pament that is null.
