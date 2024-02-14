@@ -1,0 +1,9 @@
+// it is nothing cross orgin resource sharing it is a mechanism by which a front-end client can make requests for resources to an external back-end server. 
+// The single-origin policy does not allow cross-origin requests and CORS headers are required to bypass this feature.
+// CORS defines a way for client web applications that are loaded in one domain to interact with resources in a different domain.
+// This is useful because complex applications often reference third-party APIs and resources in their client-side code.
+// at once upon a time some domain not allowed another doman whenver cros standarded then it allows other domains also.
+
+//  for example  if you have domain1 and domain to you have to share resource to domain1 to domain2
+// before the actually api call made browser will make  prefilight call and domain2 server takes the resposibilities and verify that the call is valid or not if call is valid then domain2 send some additional http headers
+//  whnever sending the http headers  then browser or domain1 understood all is ok or safe then the actuall call or post call will be happending from domain1 to domain2.
