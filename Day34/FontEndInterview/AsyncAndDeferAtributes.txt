@@ -1,0 +1,9 @@
+//  how scripts are loaded in browser?
+// data will fetched from the network  in threes
+//  1) normal script tag whenver seeing script  tag in html it stop and fetch the data from network after completes fetching and executed  and again start html code
+//  2) iusing async attribute in script tag here same normal script tag but here data will be fetched asynchronously and executed and html code start. that's it
+//  it both cases stop html code after fetching completes again start code
+//   3) defer keyword using in script tag it does not wait for fetch whnever seeing script tag it will not wait continues passing the html code and also fetch the data  from network paralle  after compltes html code and then data will be executed.
+
+// if you want data in sequence order use defer i f you want random use async because we didnot garantee data will be in sequence order.
+// defer attributes maintains order of the execution script in good manner.
