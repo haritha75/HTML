@@ -1,0 +1,9 @@
+// both are used to optimizing performance of web app how do that means limiting the rate of execution of particular function or function invocation.
+
+// difference is here if you ente the data lately that late is greater the delay time then function call happening in the debouncing
+//  but throttling happening we are assigning some  particular time on that time only function call happening for example 300 sec if you enter something but after 300sec function call happening.
+// each and every 300 milinsec api call happening whatever typing in betwee 300 millisec that characters or events are ignore that means we are reducing function invocation right.
+// take button clickable event also take dealay time 200 ms
+//  then if you click button again and again whever button click delay that time greater that 200ms then function call happends called debouncing
+//  in throttling every 200ms function call happening in button clickable event. in between clickable button calls or ignored.
+both are good if interviers aski then say asnwer based on the situaions.
