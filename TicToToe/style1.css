@@ -1,0 +1,49 @@
+.container {
+  margin: 4%;
+  width: 90%;
+}
+.container:hover .item {
+  margin-left: 500px;
+}
+
+.item {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin: 5px;
+  transition: margin-left 5s;
+}
+
+.item1 {
+  background-color: rgb(92, 243, 46);
+  transition-timing-function: step-start;
+}
+
+.item2 {
+  background-color: rgb(252, 29, 233);
+  transition-timing-function: step-end;
+}
+
+.item3 {
+  background-color: rgb(31, 28, 13);
+  transition-timing-function: steps(7, start);
+}
+
+.item4 {
+  background-color: rgb(219, 56, 84);
+  transition-timing-function: steps(7, jumpstart);
+}
+.item5 {
+  background-color: rgb(55, 19, 139);
+  transition-timing-function: steps(7, end);
+}
+
+.item6 {
+  background-color: rgb(25, 221, 247);
+  transition-timing-function: steps(7, jumpend);
+}
+
+.item7 {
+  background-color: rgb(241, 102, 21);
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
