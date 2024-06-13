@@ -1,0 +1,16 @@
+.main {
+  width: 700px;
+  border: 2px solid black;
+  background-color: red;
+}
+h1 {
+  float: left;
+}
+p {
+  float: right;
+}
+.main::after {
+  clear: both;
+  content: "lorem1suentelrtert";
+  display: block;
+}
