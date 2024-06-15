@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        height: 100px;
+        width: 100px;
+        margin-left: 30%;
+      }
+      #one {
+        background-color: greenyellow;
+        margin-top: 20px;
+      }
+      #two {
+        background-color: rgb(252, 12, 132);
+        margin-top: 50px;
+        transition: 3s;
+      }
+      #three {
+        background-color: rgb(78, 30, 250);
+        margin-top: 20px;
+      }
+      #four {
+        background-color: rgb(27, 230, 245);
+        margin-top: 20px;
+      }
+      #one:hover {
+        transform: translate(0px, -60px);
+      }
+      #two:hover {
+        transform: scaleX(7);
+      }
+      #three:hover {
+        transform: rotate(67deg);
+      }
+      #four:hover {
+        transform: skew(0deg, 25deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="one"></div>
+    <div id="two"></div>
+    <div id="three"></div>
+    <div id="four"></div>
+  </body>
+</html>
+
+<!--transform: translate(-100px, 0px) if you want to move x and y acess then use this one  
+
+    and scale(5) it increases the element size  like this it works height*5
+    and scale(5,3)  here height*5 ad width*3 scaleX(4) here only width increases
+
+
+-->

@@ -1,10 +1,10 @@
 scope is nothing where the vairbles to access menas in which we can access vaiable called scope.
 
-lexical environemnt is nothing whenever execution context create at the same time lexical environement will be createOrderit is nothing but local meory alsong with it's parents lexical  environement.
+lexical environemnt is nothing whenever execution context create at the same time lexical environement will be createOrderit is nothing but local memory along with it's parents lexical environement.
 
 
 fnction a() {
-  var b =1 0;
+  var b =10;
   c();
   function c() {
 

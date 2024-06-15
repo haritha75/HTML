@@ -60,4 +60,5 @@ code -> parsing -> compilation -> execution
 in parsing data is divided into tokens by the syntax parser caller Abstract syntax tree.
 This Abstract syntax tree is passed to the compilation.
 JIT (just in time) compilation.
-After that that tree data will be go to the interpreter it execute and  convert into bytecode and again interpreter send that tree data into compiler fand compiler optimiizng that code.
+After that that tree data will be go to the interpreter it execute and  convert into bytecode and 
+again interpreter send that tree data into compiler fand compiler optimiizng that code.

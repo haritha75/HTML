@@ -171,3 +171,8 @@ document.querySelector("#parent").addEventListener(
 //  all are capturing so it calling from  grand parent print it and parent print after child but it is stopping right it will not print.
 
 // in case of capturing start from grandparent.
+
+// Event Bubbling: Events start at the target element and bubble up through its ancestors, triggering event handlers along the way.
+
+// Event Capturing: Events start at the root of the document and trickle down through the DOM tree to the target element,
+// triggering event handlers along the way.

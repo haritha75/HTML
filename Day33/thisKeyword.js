@@ -47,7 +47,7 @@ const student = {
 student.print();
 
 const student2 = {
-  name: "depika",
+  name: "deepika",
 };
 // to override the methods like this
 student.print.call(student2); // here i am reuse the method but overridng that value using call method and passing object student2
@@ -77,4 +77,3 @@ const obj2 = {
 obj2.x(); //it gives obj2 values
 
 // this keyword inside dom elements  is reference to html elements.
-c;

@@ -1,5 +1,5 @@
 // it depends on event bubbling
-// for example in flipcart web site when click laptop it will perform action because we are applying one addevent lister even so like each individual elemnt applying event listerners
+// for example in flipcart web site when click laptop it will perform action because we are applying one addevent lister event so like each individual elemnt applying event listerners
 // instread of applying event listerne each individual element apply event listerner to the it's parent then it effect to the childrends right
 
 document.querySelector("#categories").addEventListener("click", (e) => {

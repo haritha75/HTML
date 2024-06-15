@@ -7,3 +7,10 @@
 //  for example  if you have domain1 and domain to you have to share resource to domain1 to domain2
 // before the actually api call made browser will make  prefilight call and domain2 server takes the resposibilities and verify that the call is valid or not if call is valid then domain2 send some additional http headers
 //  whnever sending the http headers  then browser or domain1 understood all is ok or safe then the actuall call or post call will be happending from domain1 to domain2.
+
+
+CORS stands for Cross-Origin Resource Sharing. It's a security feature implemented by web browsers to prevent scripts running on one page 
+from making requests to another page or domain. This restriction is known as the Same-Origin Policy.
+
+CORS allows servers to specify which origins are permitted to access its resources. 
+This mechanism enables more flexibility while maintaining security.
