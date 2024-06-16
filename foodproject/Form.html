@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+
+        <fieldset> 
+            <legend>Personal_Details</legend>
+
+            <label for="fname">FirstName</label>
+            <input type="text" id ="fname" name ="fname" required><br><br>
+            <label for="lname">LasttName</label>
+            <input type="text" id ="lname" name ="lname" required><br><br>
+            <label for="maile">Email</label>
+            <input type="maile" id ="maile" name ="maile" required><br><br>
+            <label for="dob">DOB</label>
+            <input type="date" id ="dob" name ="dob" required>
+        </fieldset>
+        <fieldset>
+            <legend>Education_Details</legend>
+            <label for="">Department</label><br><br>
+
+            <input type="radio" id="cs" name="dept">
+            <label for="cs">CS</label>
+            <input type="radio" id="ece" name="dept">
+            <label for="ece">ECE</label>
+            <input type="radio" id="civil" name="dept">
+            <label for="civil">CIVIL</label>
+            <input type="radio" id="mec" name="dept">
+            <label for="mec">MECHANICAL</label><br><br>
+            <label for="yop">YOG</label>
+            <input list="yog" id ="yop" name ="yop">
+            <datalist id="yog">
+                <option>2017</option>
+                <option>2018</option>               
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option> 
+                <option>2023</option>
+           </datalist><br><br>
+           <labe for=""> Skills</labe><br><br>
+
+           <input type="checkbox" id="html" name="html">
+           <label for="html">HTML</label><br><br>
+           <input type="checkbox" id="css" name="css">
+           <label for="css">CSSL</label><br><br>
+           <input type="checkbox" id="java" name="java">
+           <label for="java">HTML</label><br><br>
+        </fieldset>
+        <input type="submit">
+        
+    </form>
+</body>
+</html>

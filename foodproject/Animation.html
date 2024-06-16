@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            border: 5px solid black;
+            width: 150px;
+            height: 60px;
+            background-color: rgb(236, 214, 17);
+            border-radius: 20px;
+            animation-name: ani;
+            animation-duration: 7s;
+
+        }
+        @keyframes ani {
+            from{background-color: rgb(79, 42, 165);}
+            to{background-color: rgb(19, 233, 169);}
+        }
+        h1{
+            border: 5px solid black;
+            width: 150px;
+            height: 60px;
+            background-color: rgb(236, 214, 17);
+            border-radius: 20px;
+            animation-name: anima;
+            position: absolute;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+            
+
+        }
+       
+        @keyframes anima {
+            0%{background-color: brown;left: 0px;top: 0px;}
+            
+            50%{background-color: darkmagenta;left: 50%;top: 0px;}
+            100%{background-color: royalblue;left: 0px;top: 0px;}
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <p></p>
+    <h1></h1>
+</body>
+</html>
