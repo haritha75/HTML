@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        p::first-letter{
+            background-color: brown;
+            font-size:xx-large;
+        }
+        p::first-line{
+            color: darkmagenta;
+        }
+
+        P::before{
+            content: url(dog.jpg);
+        } 
+        p::after{
+            content: url(dog.jpg);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Pusedo--Element Selector</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptate, 
+        neque quas corrupti quos et. Veniam esse doloremque, cumque cum numquam molestiae voluptatem 
+        temporibus error autem quod, delectus porro labore.</p>
+        
+</body>
+</html>
