@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flower Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo">
+        <img src="./assets/logo.png" alt="logo-img" />
+        <h3>Flower Shop</h3>
+      </a>
+      <nav class="menu">
+        <ul>
+          <li><a href="#products">Products</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="login.html" onclick="logout()">Logout</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="promotion" id="home">
+      <div>
+        <h3>Hello, <span class="user-name"></span></h3>
+        <h1>Welcome to our Flower Shop!</h1>
+        <p>Check out our beautiful flowers and place your order today.</p>
+      </div>
+      <img alt="promotion" />
+    </div>
+    <div class="products" id="products"></div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
