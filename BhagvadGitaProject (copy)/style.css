@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(72, 72, 218),
+    rgb(145, 241, 233),
+    rgb(17, 167, 17)
+  );
+}
+
+#main-section {
+  height: 700px;
+  max-width: 900px;
+
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+#quote-section {
+  margin-top: 3%;
+  display: flex;
+  gap: 5%;
+  background-color: white;
+  height: 400px;
+  max-width: 820px;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin: 0 auto;
+}
+
+img {
+  margin-left: 4%;
+}
+#text {
+  margin-right: 2%;
+}
+
+#heading {
+  font-size: 50px;
+  color: blue;
+  margin-bottom: 2%;
+}
+#tag {
+  position: absolute;
+  right: 4.5%;
+  color: white;
+  font-weight: bold;
+}
+#btn {
+  position: absolute;
+  right: 50%;
+  top: 80%;
+  padding: 15px;
+  width: 11%;
+  font-weight: 500;
+  background-color: rgb(243, 245, 247);
+  border-radius: 8%;
+}
+#foot {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.read {
+  display: inline-block;
+  color: white;
+  position: absolute;
+  bottom: 1%;
+}
+.ree {
+  right: 0%;
+}
+.glow {
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #quote-section {
+    display: flex;
+    flex-wrap: wrap;
+    height: 650px;
+    width: 370px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    width: 300px;
+    height: 360px;
+    align-items: center;
+    display: block;
+    margin-top: 6%;
+  }
+  #heading {
+    margin-top: 0;
+  }
+  #foot {
+    margin-top: 10%;
+  }
+  #main-section {
+    position: relative;
+  }
+  #btn {
+    position: fixed;
+    top: 90%;
+    left: 47%;
+    margin-top: 5%;
+  }
+}
