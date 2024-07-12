@@ -1,0 +1,30 @@
+#main1 {
+  height: 300px;
+  width: 750px;
+}
+#main3 {
+}
+
+img {
+  border-radius: 50%;
+}
+body {
+  background-color: rgb(197, 193, 187);
+}
+#main6 {
+  height: 300px;
+  width: 800px;
+  display: flex;
+  text-align: center;
+}
+#main2 {
+  float: left;
+}
+
+#main5 {
+  margin-right: 20px;
+  width: 400px;
+}
+#main2 img {
+  display: block;
+}
