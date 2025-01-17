@@ -1,0 +1,4 @@
+What will the following code output?
+
+console.log("We need to understand", "how to print multiple output in a single line");
+
