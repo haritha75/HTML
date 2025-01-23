@@ -1,0 +1,5 @@
+// your code goes here
+let length = 45;
+let width = 76;
+let area = length * width;
+console.log(area);
