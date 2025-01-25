@@ -1,0 +1,4 @@
+// your code goes here
+let a = "Learning ";
+let b = "is fun!";
+console.log(a,b);
