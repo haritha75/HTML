@@ -1,0 +1,4 @@
+// your code goes here
+let str = "String";
+let s = str.slice(2);
+console.log(s);
