@@ -1,0 +1,9 @@
+// your code goes here
+let word = "CodeChef";
+let count = word.length;
+
+if(count>5){
+    console.log("Long String");
+}else{
+    console.log("Short String");
+}
