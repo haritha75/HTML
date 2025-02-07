@@ -1,0 +1,12 @@
+function printScore(score) {
+    // Complete this function
+    if(score === 100){
+        console.log("Perfect score");
+    }else if(score >= 80){
+        console.log("Almost perfect score");
+    }else{
+        console.log("Nice try");
+    }
+
+}
+
