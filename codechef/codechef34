@@ -1,0 +1,9 @@
+// Fix the code below so that it can print "Expensive"
+
+var price = 105;
+if(price > 100) {
+  console.log("Expensive");
+}
+else {
+  console.log("Affordable");
+}
