@@ -1,0 +1,9 @@
+// Debug the following function
+
+function printCharacters(str) {
+   console.log(str[0] + str[3] + str[5]);
+}
+
+function solve(str) {
+   printCharacters(str);
+}
