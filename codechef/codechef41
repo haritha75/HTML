@@ -1,0 +1,5 @@
+// your code goes here
+var days = ["Monday","Tuesday","Wednesday","Thursday"];
+console.log(days[days.length-2]);
+console.log(days[days.length-1]);
+
