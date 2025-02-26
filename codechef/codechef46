@@ -1,0 +1,6 @@
+var a = 1;
+var b = 4;
+while (a != b){
+   console.log(b);
+   b = b + 1;
+}
