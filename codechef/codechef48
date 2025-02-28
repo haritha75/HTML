@@ -1,0 +1,11 @@
+function testScope() {
+//   if (true) {
+    var name = "Alice";
+    let age = 25;
+    const city = "New York";
+//   }
+  console.log(name); // Works
+  console.log(age); // Error: ReferenceError
+  console.log(city); // Error: ReferenceError
+}
+testScope();
