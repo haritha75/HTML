@@ -1,0 +1,16 @@
+What happens when you try to access a let variable before it is declared?
+
+Correct Answer:
+Throws ReferenceError
+Explanation:
+
+Explanation: Accessing a let variable before its declaration results in a ReferenceError due to the temporal dead zone.
+
+
+Which of the following is block-scoped?
+
+Correct Answer:
+both b) and c)
+Explanation:
+
+Explanation: let and const are block-scoped, meaning their scope is limited to the block in which they are defined.
