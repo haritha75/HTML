@@ -1,0 +1,18 @@
+Which variable declaration would you use for a value that doesn’t change during the program's execution?
+
+
+Correct Answer:
+const
+Explanation:
+
+Explanation: const is used to declare variables whose values cannot be reassigned.
+
+
+
+What does hoisting mean in JavaScript?
+
+Correct Answer:
+ Both a and c.
+Explanation:
+
+Explanation: Hoisting moves variable declarations (var) to the top of their scope but initializes them as undefined.
