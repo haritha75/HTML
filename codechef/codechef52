@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arrow Function Event</title>
+</head>
+<body>
+  <!-- Button -->
+  <button id="changeTextButton">Click Me</button>
+  
+  <!-- Paragraph -->
+  <p id="text">Old text</p>
+
+  <!-- Script -->
+  <script>
+    const button = document.getElementById('changeTextButton');
+    const text = document.getElementById('text');
+
+    // Arrow function to modify text content
+    
+    button.addEventListener('click',()=>{
+        text.textContent = "New text!";
+    })
+    
+  </script>
+</body>
+</html>
+
