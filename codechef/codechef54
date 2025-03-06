@@ -1,0 +1,7 @@
+Which of the following is the correct syntax for an arrow function that adds two numbers?
+
+Correct Answer:
+ const add = (a, b) => { return a + b; };
+Explanation:
+
+Explanation: Arrow functions use the => syntax, and if the body contains multiple statements, it must use curly braces and explicitly return the result.
