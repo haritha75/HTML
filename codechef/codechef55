@@ -1,0 +1,15 @@
+What does the this keyword refer to in the following code?
+
+const person = {
+  name: 'John',
+  greet: () => {
+    console.log(this.name);
+  }
+};
+person.greet();
+
+Correct Answer:
+ this refers to the global object (or undefined in strict mode).
+Explanation:
+
+Explanation: Arrow functions do not have their own this context and instead inherit this from the surrounding (global) scope.
