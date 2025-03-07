@@ -1,0 +1,7 @@
+Which of the following is true about the concise body syntax in arrow functions?
+
+Correct Answer:
+The function body can only contain a single expression, and no return statement is needed.
+Explanation:
+
+Explanation: For concise syntax, the single expression is implicitly returned, and no curly braces are used.
