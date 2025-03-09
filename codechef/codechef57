@@ -1,0 +1,8 @@
+const fruits = ["apple", "banana"];
+const vegetables = ["carrot", "spinach"];
+
+// Merge the arrays into a new array using the spread operator
+const groceries = [...fruits,...vegetables];
+
+console.log(groceries);
+
