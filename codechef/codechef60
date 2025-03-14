@@ -1,0 +1,17 @@
+Debugging Task
+
+A user attempts to merge two objects and overwrite a property, but the result is not as expected.
+
+Debugging Instructions:
+
+    Analyze why the theme property is not updated to "dark".
+
+    Correct the code to prioritize userSettings over defaults.
+
+
+
+const defaults = { theme: "light", notifications: true };
+const userSettings = { theme: "dark" };
+
+const finalSettings = { ...defaults, ...userSettings };
+console.log(finalSettings);
