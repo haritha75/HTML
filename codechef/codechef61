@@ -1,0 +1,7 @@
+What is the primary purpose of the spread operator?
+
+Correct Answer:
+To expand elements into individual items
+Explanation:
+
+Explanation: The spread operator (...) expands arrays or objects into individual elements or properties.
