@@ -1,0 +1,7 @@
+In which context is the rest operator used?
+
+Correct Answer:
+Collecting multiple arguments
+Explanation:
+
+Explanation: The rest operator (...) collects multiple arguments into an array when used in function parameters.
