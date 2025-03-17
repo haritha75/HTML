@@ -1,0 +1,12 @@
+What will be the output of the following code?
+
+const arr = [1, 2, 3];
+const newArr = [...arr, 4, 5];
+console.log(newArr);
+
+
+Correct Answer:
+[1, 2, 3, 4, 5]
+Explanation:
+
+Explanation: The spread operator (...arr) expands arr into its individual elements, creating a new array with additional values [4, 5].
