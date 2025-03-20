@@ -1,0 +1,7 @@
+What is the difference between destructuring arrays and objects?
+
+Correct Answer:
+ Arrays use square brackets; objects use curly braces.
+Explanation:
+
+Explanation: Arrays are destructured using square brackets [], while objects are destructured using curly braces {}.
