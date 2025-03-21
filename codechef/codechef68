@@ -1,0 +1,9 @@
+const [a = 10, b] = [undefined, 20];
+console.log(a, b);
+
+
+Correct Answer:
+10, 20
+Explanation:
+
+Explanation: The default value 10 is assigned to a since the first element in the array is undefined, and b gets the value 20.
