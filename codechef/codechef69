@@ -1,0 +1,7 @@
+Which statement is true about nested destructuring?
+
+Correct Answer:
+It allows unpacking of nested properties or values.
+Explanation:
+
+Explanation: Nested destructuring allows you to unpack values from objects or arrays that are nested inside other objects or arrays.
