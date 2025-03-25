@@ -1,0 +1,11 @@
+What will be the output of this code, if the user enters 4?
+
+process.stdin.setEncoding('utf8');
+
+process.stdin.on('data', function (input) {
+   var num = parseInt(input); 
+   console.log("The number is:", num);
+});
+
+Correct Answer:
+The number is: 4
