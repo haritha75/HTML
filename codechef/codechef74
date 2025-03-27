@@ -1,0 +1,15 @@
+What will be the output of this code, if the user enters 5 and 9?
+
+process.stdin.setEncoding('utf8');
+process.stdin.on('data', function(input) {
+    const nums = input.trim().split('\n');
+    let x = parseInt(nums[0]), y = parseInt(nums[1]);
+    console.log(x, y, x + y);
+});
+
+Correct Answer:
+5 9 14
+Explanation:
+
+a = 5, b = 9 and a + b = 14. 
+By default - output on a single line is space separated.
