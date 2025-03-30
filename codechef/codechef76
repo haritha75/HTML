@@ -1,0 +1,3 @@
+// your code goes here
+var str = "Chef";
+console.log("Hello "+str);
