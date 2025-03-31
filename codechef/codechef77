@@ -1,0 +1,23 @@
+// Complete the code
+
+
+process.stdin.setEncoding('utf8');
+process.stdin.on('data', function(input) {
+    const lines = input.trim().split('\n');
+    const t1 = parseInt(lines[0]);
+    const t2 = parseInt(lines[1]);
+    const t3 = parseInt(lines[2]);
+    const t4 = parseInt(lines[3]);
+    const t5 = parseInt(lines[4]);
+    
+    
+    console.log(t1);
+    console.log(t2);
+    console.log(t3);
+    console.log(t4);
+    console.log(t5);
+
+
+
+   
+});
