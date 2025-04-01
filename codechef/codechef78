@@ -1,0 +1,12 @@
+// Complete the code
+
+process.stdin.setEncoding('utf8');
+process.stdin.on('data', function(input) {
+    const lines = input.trim().split('\n');
+    const tests = lines[0];
+    for(i = 1; i <= tests; i++){
+        console.log(lines[i]);
+        
+    }
+    
+});
