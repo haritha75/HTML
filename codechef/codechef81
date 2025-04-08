@@ -1,0 +1,8 @@
+process.stdin.setEncoding('utf8');
+process.stdin.on('data', function(input) {
+    const nums = input.trim().split('\n');
+    const n = nums[0];
+    for(i = 1; i <= n; i++) {
+        console.log(parseInt(nums[i]) + 1);
+    }
+});
