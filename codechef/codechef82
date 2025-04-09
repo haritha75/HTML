@@ -1,0 +1,26 @@
+// Set the encoding for standard input to UTF-8
+process.stdin.setEncoding('utf8');
+
+// Listen for data input from standard input
+
+process.stdin.on('data', function(input) {
+
+    // Trim the input to remove unnecessary whitespace and split it by newlines
+    const nums = input.trim().split('\n');
+
+
+    // The first line contains the number of test cases
+    const n = nums[0];
+
+
+    // Loop through the test cases
+    for (i = 1; i <= n; i++) {
+        // Convert the number to an integer, negate it, and print the result
+        console.log(parseInt(nums[i]) * -1);
+    }
+    
+});
+    
+    
+    
+
