@@ -1,0 +1,13 @@
+// your code goes here
+process.stdin.setEncoding('utf8');
+process.stdin.on('data', function(input) {
+    const strings = input.trim().split('\n');
+    const testCases = strings[0];
+    for(i = 1; i <= testCases; i++){
+      var S = strings[i];
+      var X = S + S;
+      console.log(X);
+    }
+    
+});
+
