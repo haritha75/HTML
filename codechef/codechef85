@@ -1,0 +1,14 @@
+// Debug/fix the code
+
+
+process.stdin.setEncoding('utf8');
+process.stdin.on('data', function(input) {
+    const nums = input.split('\n');
+    const testCases = nums[0];
+    for(i = 1; i <= testCases; i++) {
+      var num = parseInt(nums[i]);
+      console.log(num * 2);
+    }
+    
+});
+
